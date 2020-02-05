@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+}
+
+.content {
+    text-align: center;
+    margin: 150px 300px 150px 300px;
+}
+
+.hpsearch {
+    margin-bottom: 15px;
+}
+
+#searchbar {
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    padding: 0px 0px 0px 16px;
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 2px 2px gainsboro;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 8px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10pt;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    list-style-type: none;
+    position absolute;
+    margin: 7px 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 99%;
+    overflow: hidden;
+}
+
+#ft {
+    background-color: whitesmoke;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#searchbutton {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#luckybutton {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+    border-color: white;
+}
