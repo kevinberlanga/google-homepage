@@ -46,10 +46,15 @@ a:hover {
     text-decoration: underline;
 }
 
+#appsicon {
+    height: 27px;
+    width: 27px;
+}
+
 .header {
     list-style-type: none;
     position absolute;
-    margin: 7px 0 0 10px;
+    margin: 7px 5px 5px 10px;
     padding: 0;
     overflow: hidden;
 }
@@ -92,4 +97,8 @@ a:hover {
     width: 130px;
     border-radius: 5px;
     border-color: white;
+}
+
+#invisible {
+    color: white;
 }
