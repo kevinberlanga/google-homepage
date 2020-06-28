@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Google</title>
-        
+        <link rel="stylesheet"  type="text/css" href="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/index.css">
     </head>
 
     <body>
@@ -20,20 +20,29 @@
         </div>
     
         <div class="logo-searchbar">
-            <img src="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/google-logo.png" id="apps-icon">
+            <img src="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/google-logo.png" id="logo">
             <div id="search-bar">
-                <button id="search-logo"><img src="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/search-logo.png" id="search-logo-pic"></button>
+                <button class="sb-button" id="search-logo"><img src="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/search-logo.png" id="search-logo-pic"></button>
                 <input type="search" id="actual-search-bar">
-                <button id="microphone"><img src="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/microphone.png" id="microphone-pic"></button>
+                <button class="sb-button" id="microphone"><img src="file:///Users/kevinberlanga/Desktop/the_odin_project/google-homepage/microphone.png" id="microphone-pic"></button>
+            </div>
+            <div class="buttons">
+                <button id="google-search">Google Search</button>
+                <button id="feeling-lucky">I'm Feeling Lucky</button>
             </div>
         </div>
         <div class="footer">
-            <p id="advertising">Advertising</p>
-            <p id="business">Business</p>
-            <p id="howsearchworks">How Search Works</p>
-            <p id="privacy">Privacy</p>
-            <p id="terms">Terms</p>
-            <p id="settings">Settings</p>
+            <div id="footer-left">
+                <p id="advertising">Advertising</p>
+                <p id="business">Business</p>
+                <p id="howsearchworks">How Search Works</p>
+            </div>
+            
+            <div id="footer-right">
+                <p id="privacy">Privacy</p>
+                <p id="terms">Terms</p>
+                <p id="settings">Settings</p>
+            </div>
         </div>
     </body>
 
